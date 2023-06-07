@@ -1,0 +1,114 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#f7fcff, #e8e8e9);
+  height: 100vh;
+  width: 100vw;
+  top: 70px;
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader span {
+  font: 500 15px "Montserrat";
+  margin-top: 10px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 10px 10px 30px 10px;
+  border-radius: 10px;
+}
+
+.inputContainer {
+  display: flex;
+}
+
+.title {
+  font: 600 25px "Montserrat";
+  padding: 25px 0px;
+  color: #303030;
+}
+
+.instruction {
+  font: 500 14px "Montserrat";
+  margin-bottom: 20px;
+}
+
+.instruction span {
+  color: red;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%;
+  gap: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .formContainer {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    height: calc(100vh + 200px);
+  }
+
+  .inputContainer {
+    flex-direction: column;
+  }
+
+  .instruction{
+    font-size: 12.5px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .instruction{
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 372px) {
+  .instruction{
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  .instruction{
+    font-size: 9.5px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  .instruction{
+    font-size: 9px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+}

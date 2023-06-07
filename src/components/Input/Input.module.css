@@ -1,0 +1,115 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  padding: 25px 0 15px 25px;
+  font: 400 14px "Montserrat";
+  margin-left: 5px;
+}
+
+label span {
+  color: red;
+}
+
+input {
+  width: 240px;
+  height: 45px;
+  padding: 0 10px;
+  margin: 0 25px;
+  border: 1px solid #b9babb;
+  border-radius: 10px;
+  font: 400 12px "Montserrat";
+  outline: none;
+}
+
+input:focus {
+  border: 1px solid #121313;
+}
+
+.errorMessage {
+  font: 400 12px "Montserrat";
+  color: red;
+  padding: 5px 30px;
+  display: none;
+}
+
+input:invalid[focused="true"] {
+  border: 1px solid red;
+}
+
+input:invalid[focused="true"] ~ .errorMessage {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  input{
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  input{
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 632px) {
+  input{
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  input{
+    width: 240px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 508px) {
+  input{
+    width: 220px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  input{
+    width: 200px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 372px) {
+  input{
+    width: 180px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 304px) {
+  input{
+    width: 160px;
+    height: 25px;
+  }
+
+  label{
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  input{
+    width: 140px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 240px) {
+  input{
+    width: 120px;
+    height: 25px;
+  }
+}

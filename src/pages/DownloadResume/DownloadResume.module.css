@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#f7fcff, #e8e8e9);
+  height: 1130px;
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader span {
+  font: 500 15px "Montserrat";
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%;
+  gap: 40px;
+  padding-bottom: 25px;
+}
+
+.showMobileMsg {
+  padding: 15px 50px;
+  text-align: center;
+  font: 600 1.2rem "Montserrat";
+  color: #222831;
+  display: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .container{
+    height: 100vh;
+  }
+
+  .showMobileMsg {
+    display: block;
+  }
+}

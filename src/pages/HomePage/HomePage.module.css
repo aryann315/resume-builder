@@ -1,0 +1,129 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7fcff, #e8e8e9;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  top: 70px;
+}
+
+.outerContainer {
+  padding: 0 10px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+
+.heading {
+  margin: 0 auto;
+  max-width: 500px;
+  color: #303030;
+  line-height: 4.1rem;
+  font-family: "Montserrat";
+  font-size: 3.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.heading span {
+  background-clip: text;
+  background-image: linear-gradient(to right, #b6b6b6, #303030);
+  color: transparent;
+}
+
+.alignRight img {
+  width: 380px;
+}
+
+.moveButtonContainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+@media only screen and (max-width: 950px) {
+  .alignRight img {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .alignRight img {
+    width: 270px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .alignRight img {
+    width: 300px;
+  }
+  .heading {
+    max-width: 350px;
+    line-height: 3rem;
+    font-size: 2.8rem;
+    letter-spacing: 1px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .alignRight img {
+    width: 240px;
+  }
+  .heading {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 632px) {
+  .alignRight img {
+    width: 190px;
+  }
+  .heading {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .alignRight img {
+    width: 170px;
+  }
+  .heading {
+    max-width: 280px;
+    font-size: 2.2rem;
+    letter-spacing: 0;
+  }
+}
+
+@media only screen and (max-width: 508px) {
+  .alignRight img {
+    width: 150px;
+  }
+  .heading {
+    max-width: 240px;
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .alignRight img {
+    width: 130px;
+  }
+  .heading {
+    max-width: 210px;
+    font-size: 1.7rem;
+  }
+}
+
+@media only screen and (max-width: 372px) {
+  .alignRight img {
+    width: 110px;
+  }
+  .heading {
+    max-width: 190px;
+    font-size: 1.6rem;
+  }
+}

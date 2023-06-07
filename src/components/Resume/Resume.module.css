@@ -1,0 +1,198 @@
+.pageContainer {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.a4Container {
+  height: 842px;
+  width: 595px;
+  margin: 40px 30px;
+  background-color: white;
+}
+
+hr {
+  color: #222831;
+}
+
+.nameContainer {
+  display: flex;
+  padding-top: 5px;
+  padding-left: 15px;
+  gap: 10px;
+}
+
+.nameContainer span {
+  font: 700 30px "Montserrat";
+  color: #222831;
+}
+
+.detailsContainer {
+  display: flex;
+  padding: 15px 0px 0px 17px;
+  gap: 20px;
+}
+
+.detailContainer {
+  display: flex;
+  gap: 5px;
+}
+
+.detailContainer .logo {
+  font-size: 17px;
+  color: #222831;
+}
+
+.detailContainer .text {
+  font: 500 15px "Montserrat";
+  color: #222831;
+}
+
+.profileContainer {
+  display: flex;
+  padding: 10px 0px 0px 17px;
+  gap: 10px;
+}
+
+.profileContainer a {
+  font: 500 15px "Montserrat";
+  color: #222831;
+}
+
+.educationContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 18px;
+  margin-top: 15px;
+}
+
+.educationHeading {
+  font: 700 21px "Montserrat";
+  color: #222831;
+}
+
+.educationInner {
+  display: flex;
+  gap: 20px;
+  padding-top: 3px;
+}
+
+.educationInner .institute {
+  padding: 3px;
+  font: 600 15px "Montserrat";
+  color: #222831;
+}
+
+.educationInner .dates {
+  padding-top: 6.2px;
+  font: 600 13px "Montserrat";
+  color: #222831;
+}
+
+.educationInner .course {
+  padding: 3px;
+  font: 500 13px "Montserrat";
+  color: #222831;
+}
+
+.workContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 18px;
+  margin-top: 15px;
+}
+
+.workHeading {
+  font: 700 21px "Montserrat";
+  color: #222831;
+}
+
+.workInner {
+  display: flex;
+  gap: 25px;
+  padding-top: 3px;
+}
+
+.workInner .company {
+  padding: 3px;
+  font: 600 15px "Montserrat";
+  color: #222831;
+}
+
+.workInner .title {
+  padding: 3px;
+  font: 500 13px "Montserrat";
+  color: #222831;
+}
+
+.workInner .dates {
+  padding-top: 6px;
+  font: 600 13px "Montserrat";
+  color: #222831;
+}
+
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 18px;
+  margin-top: 15px;
+}
+
+.projectHeading {
+  font: 700 21px "Montserrat";
+  color: #222831;
+}
+
+.projectInner {
+  display: flex;
+  gap: 20px;
+  padding-top: 5px;
+}
+
+.projectInner .title {
+  padding: 3px;
+  font: 600 15px "Montserrat";
+  color: #222831;
+}
+
+.projectInner .overview {
+  padding-left: 3px;
+  font: 400 13px "Montserrat";
+  color: #222831;
+}
+
+.projectInner a {
+  padding-left: 3px;
+  font: 500 13px "Montserrat";
+  color: #222831;
+}
+
+.achievementContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 18px;
+  margin-top: 15px;
+}
+
+.achievementHeading {
+  font: 700 21px "Montserrat";
+  color: #222831;
+}
+
+.achievementDetails {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.achievements {
+  padding: 3px;
+  font: 500 14px "Montserrat";
+  color: #222831;
+}
+
+@media only screen and (max-width: 768px) {
+  .pageContainer{
+    display: none;
+  }
+}

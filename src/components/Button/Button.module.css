@@ -1,0 +1,46 @@
+.moveButton {
+  width: 90px;
+  height: 35px;
+  border-radius: 7px;
+  background-color: #303030;
+  border: none;
+  cursor: pointer;
+}
+
+.moveButton:hover {
+  background-color: #555555;
+}
+
+.moveButtonTitle {
+  font: 600 15px "Montserrat";
+  color: white;
+}
+
+.makeResumeButton {
+  width: 100px;
+  height: 45px;
+  border-radius: 8px;
+  background-color: #303030;
+  border: none;
+  cursor: pointer;
+}
+
+.makeResumeButton:hover {
+  background-color: #555555;
+}
+
+.makeResumeButtonTitle {
+  font: 500 16px "Montserrat";
+  color: white;
+}
+
+@media screen and (max-width: 372px) {
+  .moveButton {
+    width: 75px;
+    height: 30px;
+  }
+
+  .moveButtonTitle {
+  font-size: 12px;
+  }
+}

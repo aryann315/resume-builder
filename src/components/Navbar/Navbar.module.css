@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  height: 70px;
+  width: 100vw;
+  background-color: #303030;
+  align-items: center;
+  position: fixed;
+}
+
+.title {
+  cursor: pointer;
+  padding-left: 25px;
+  font-family: "Montserrat";
+  font-size: 26px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 372px) {
+  .title{
+    font-size: 22px;
+  }
+}
